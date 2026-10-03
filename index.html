@@ -48,12 +48,12 @@
         }
 
         .profile-img-container {
-            width: 280px;
-            height: 280px;
+            width: 100%;
+            height: auto;
             margin: 0 auto 20px;
-            border-radius: 50%;
+            border-radius: 0px;
             overflow: hidden;
-            border: 6px solid white;
+            border: 0px solid white;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
             cursor: pointer;
             transition: transform 0.3s ease;
@@ -265,6 +265,21 @@
                 grid-template-columns: 1fr;
             }
         }
+        @media (min-width: 900px){
+            .profile-img-container {
+            width: 380px;
+            height: 380px;
+            margin: 0 auto 20px;
+            border-radius: 0px;
+            overflow: hidden;
+            border: 0px solid white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            position: relative;
+            z-index: 1;
+        }
+        }
     </style>
 </head>
 
@@ -272,7 +287,7 @@
     <div class="container">
         <div class="header">
             <div class="profile-img-container">
-                <img src="https://res.cloudinary.com/dgyj6vnhv/image/upload/v1767375303/Gemini_Generated_Image_sgf459sgf459sgf4_tjt2fo.png"
+                <img src="https://res.cloudinary.com/dgyj6vnhv/image/upload/v1791036641/WhatsApp_Image_2026-09-06_at_5.19.51_PM_xlecet.png"
                     alt="Shuvo Gosh" id="profileImg">
             </div>
             <h1>SHUVO GOSH</h1>
@@ -399,7 +414,7 @@
                     <div class="info-item">
                         <div class="info-label">Current Position</div>
                         <div class="info-value info-value2">Software Engineer</div>
-                        <div class="info-value info-value2">Rankupper LLC</div>
+                        <div class="info-value info-value2">Offshore Information Technologies Ltd</div>
                         <div class="info-value info-value2">Block: D, Lalmatia, Dhaka / July 2022 -Present</div>
                     </div>
                 </div>
